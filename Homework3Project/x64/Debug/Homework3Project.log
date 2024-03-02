@@ -1,0 +1,19 @@
+﻿  AO.cpp
+C:\Myarmadillo\HW3_ZhiGong\Homework3Project\AO.cpp(130,40): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Myarmadillo\HW3_ZhiGong\Homework3Project\AO.cpp(130,58): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+  C2H2.cpp
+  C2H4.cpp
+  demo.cpp
+  H2.cpp
+  hamiltonian.cpp
+  utils.cpp
+  正在生成代码...
+C2H4.obj : error LNK2005: main 已经在 C2H2.obj 中定义
+H2.obj : error LNK2005: main 已经在 C2H2.obj 中定义
+hamiltonian.obj : error LNK2005: "class arma::Mat<double> __cdecl MO_coefficients(class arma::Mat<double>,class arma::Mat<double>)" (?MO_coefficients@@YA?AV?$Mat@N@arma@@V12@0@Z) 已经在 demo.obj 中定义
+hamiltonian.obj : error LNK2005: "double __cdecl calculateEnergy(class arma::Mat<double>,class arma::Mat<double>,int)" (?calculateEnergy@@YANV?$Mat@N@arma@@0H@Z) 已经在 demo.obj 中定义
+hamiltonian.obj : error LNK2005: "double __cdecl calculateHamiltonianEnergy(class AO,class arma::Mat<double>)" (?calculateHamiltonianEnergy@@YANVAO@@V?$Mat@N@arma@@@Z) 已经在 demo.obj 中定义
+hamiltonian.obj : error LNK2005: "class arma::Mat<double> __cdecl createX(class arma::Mat<double>)" (?createX@@YA?AV?$Mat@N@arma@@V12@@Z) 已经在 demo.obj 中定义
+hamiltonian.obj : error LNK2005: "class arma::Mat<double> __cdecl createhamiltonianEnergy(class std::vector<struct BasisFunction,class std::allocator<struct BasisFunction> > &)" (?createhamiltonianEnergy@@YA?AV?$Mat@N@arma@@AEAV?$vector@UBasisFunction@@V?$allocator@UBasisFunction@@@std@@@std@@@Z) 已经在 demo.obj 中定义
+hamiltonian.obj : error LNK2005: "class arma::Mat<double> __cdecl fancyH(class arma::Mat<double>,class arma::Mat<double>)" (?fancyH@@YA?AV?$Mat@N@arma@@V12@0@Z) 已经在 demo.obj 中定义
+C:\Myarmadillo\HW3_ZhiGong\Homework3Project\x64\Debug\Homework3Project.exe : fatal error LNK1169: 找到一个或多个多重定义的符号
